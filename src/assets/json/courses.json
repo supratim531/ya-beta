@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Java",
+    "modules": [
+      "Java Module 1",
+      "Java Module 2",
+      "Java Module 3"
+    ],
+    "image": "https://yateam.vercel.app/static/media/java.765d56404838a44a9025.png"
+  },
+  {
+    "name": "JavaScript",
+    "modules": [
+      "JavaScript Module 1",
+      "JavaScript Module 2",
+      "JavaScript Module 3"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+  },
+  {
+    "name": "Python",
+    "modules": [
+      "Python Module 1",
+      "Python Module 2",
+      "Python Module 3"
+    ],
+    "image": "https://yateam.vercel.app/static/media/python.5a59592e493056c3e7d6.png"
+  }
+]

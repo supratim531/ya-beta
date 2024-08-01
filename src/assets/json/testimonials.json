@@ -1,0 +1,38 @@
+{
+  "clients": [
+    {
+      "name": "Rohit Client",
+      "quote": "Hello, I'm Rohit Client"
+    },
+    {
+      "name": "Ankit Client",
+      "quote": "Hello, I'm Ankit Client"
+    },
+    {
+      "name": "Mukesh Client",
+      "quote": "Hello, I'm Mukesh Client"
+    },
+    {
+      "name": "Ashutosh Client",
+      "quote": "Hello, I'm Ashutosh Client"
+    }
+  ],
+  "students": [
+    {
+      "name": "Anuska Student",
+      "quote": "Hello, I'm Anusha Student"
+    },
+    {
+      "name": "Alok Student",
+      "quote": "Hello, I'm Alok Student"
+    },
+    {
+      "name": "Priya Student",
+      "quote": "Hello, I'm Priya Student"
+    },
+    {
+      "name": "Suresh Student",
+      "quote": "Hello, I'm Suresh Student"
+    }
+  ]
+}
