@@ -1,7 +1,7 @@
 import React from "react";
+import ServiceCards from "./ServiceCards";
 import { Container } from "../../components";
 import { ServiceWireImage } from "../../assets";
-import ServiceCards from "./ServiceCards";
 
 const Service = (props) => {
   return (

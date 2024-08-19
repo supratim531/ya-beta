@@ -1,4 +1,4 @@
-export { default as Container } from "./shared/container/Container";
+export { Modal, Container } from "./shared";
 
 export { default as Header, Navbar, SidebarMaybe } from "./header";
 export { default as Hero } from "./hero/Hero";

@@ -11,8 +11,8 @@ const SidebarMaybe = (props, ref) => {
 
   return (
     <aside
-      onClick={() => ref.current.toggle()}
       ref={sidebarRef}
+      onClick={() => ref.current.toggle()}
       className="fixed right-0 top-0 z-[2] h-screen w-[70%] translate-x-[100%] bg-red-400 duration-300 sm:w-[60%] md:hidden"
     ></aside>
   );

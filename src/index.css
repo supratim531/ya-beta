@@ -23,3 +23,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+
+@layer utilities {
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Customized scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 4px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--bg-primary);
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-corner {
+    border-radius: 4px;
+  }
+  /* Customized scrollbar */
+}
