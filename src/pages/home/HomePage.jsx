@@ -22,7 +22,7 @@ const HomePage = (props) => {
         <Work />
       </div>
 
-      <div className="bg-[#1b202b]">
+      <div className="bg-primary">
         <Course />
       </div>
 
