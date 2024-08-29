@@ -4,8 +4,10 @@
   margin-right: auto;
   padding-left: var(--bs-gutter-x, 0.75rem);
   padding-right: var(--bs-gutter-x, 0.75rem);
+}
 
-  @media (min-width: 576px) {
+@media (min-width: 576px) {
+  .modalContainer {
     width: 480px;
   }
 }
