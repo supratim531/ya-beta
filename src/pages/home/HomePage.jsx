@@ -2,6 +2,7 @@ import {
   Hero,
   Service,
   Work,
+  Project,
   Course,
   About,
   Testimonial,
@@ -24,6 +25,10 @@ const HomePage = (props) => {
 
       <div className="bg-primary">
         <Course />
+      </div>
+
+      <div className="bg-white">
+        <Project />
       </div>
 
       <div className="bg-black">
