@@ -16,7 +16,7 @@
   border: 6px solid transparent;
 
   &:hover {
-    border: 6px solid #1ac6ff;
+    border: 6px solid var(--bg-primary);
     transition: border 0.5s ease-in-out;
   }
 }
