@@ -1,6 +1,7 @@
 export { Modal, Container } from "./shared";
 
 export { default as Header, Navbar, SidebarMaybe } from "./header";
+export { default as FlipCard } from "./flip-card/FlipCard";
 export { default as Hero } from "./hero/Hero";
 export { default as Service } from "./service/Service";
 export { default as Work } from "./work/Work";

@@ -1,6 +1,6 @@
 import React from "react";
 import { HeroImage } from "../../assets";
-import { Container } from "../../components";
+import { Container, FlipCard } from "../../components";
 
 const Hero = (props) => {
   return (
@@ -20,7 +20,8 @@ const Hero = (props) => {
           </h2>
         </section>
         <section className="flex w-full justify-center md:w-[60%]">
-          <img src={HeroImage} alt="hero-image" />
+          {/* <img src={HeroImage} alt="hero-image" /> */}
+          <FlipCard />
         </section>
       </article>
     </Container>
