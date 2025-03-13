@@ -61,12 +61,7 @@ const TeamDesktopSwiper = (props) => {
                         {member.name}
                       </h1>
                     </div>
-                    <button className="mb-2 flex w-full items-center justify-center space-x-1 rounded-md bg-white py-2 font-semibold">
-                      <span>
-                        <i className="fa-brands fa-whatsapp text-xl text-green-600"></i>
-                      </span>
-                      <span>Chat</span>
-                    </button>
+                    
                   </div>
                 </div>
               </div>

@@ -5,7 +5,7 @@ export { default as FlipCard } from "./flip-card/FlipCard";
 export { default as Hero } from "./hero/Hero";
 export { default as Service } from "./service/Service";
 export { default as Work } from "./work/Work";
-export { default as Project } from "./project/Project";
+export { default as Project } from "./Acheivement/Acheivement";
 export { default as Course } from "./course/Course";
 export { default as About, TeamMobileSwiper, TeamDesktopSwiper } from "./about";
 export { default as Testimonial } from "./testimonial/Testimonial";

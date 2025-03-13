@@ -23,12 +23,12 @@ const Work = (props) => {
       >
         <section className="flex w-full flex-col justify-center gap-y-2 text-white md:w-[30%]">
           <h1 className="font-poppins text-[24px] font-bold leading-8 md:text-[35px] md:leading-10">
-            {"Experience the Next Level "}
-            <span className="text-primary">Business Efficiency</span>
+            <span className="text-primary-blue">Why choose</span>
+            <br />
+            <span className="text-primary">Young Architects</span>
           </h1>
-          <h2 className="font-poppins text-[16px] opacity-90 md:text-[18px]">
-            Choose India's best enterprise solution provider to help your
-            business grow.
+          <h2 className="font-poppins  mt-[1rem] text-[16px] opacity-90 md:text-[18px]">
+          Choose <span className="text-primary">Young Architects</span> for a client-centric approach where your vision is our priority. We offer tailored solutions through <span className="text-primary-blue">deep business analysis</span>, <span className="text-primary-blue">collaborative consultancy</span>, and a <span className="text-primary-blue">commitment to perfection</span>. With us, you're not just a client — <span className="text-primary">you're family</span>.
           </h2>
         </section>
         <section className="flex w-full flex-wrap items-center justify-center gap-6 md:w-[70%]">

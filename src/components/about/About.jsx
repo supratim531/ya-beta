@@ -23,6 +23,12 @@ const About = () => {
             {"Certified Team Of Experts "}
             <span className="text-primary">To Assist You</span>
           </h3>
+          <button className="mb-2 flex w-[50%] items-center justify-center space-x-2   rounded-md bg-white/25 p-2 font-semibold">
+            <span>
+              <i className="fa-brands fa-whatsapp text-xl text-green-600"></i>
+            </span>
+            <span>Chat</span>
+          </button>
         </section>
         <section className="w-full md:w-[70%]">
           <TeamMobileSwiper />

@@ -2,65 +2,77 @@
   "marketing": [
     {
       "title": "Instagram Marketing",
-      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+      "description": "Elevate your brand's online presence with Instagram – the perfect platform to engage and attract your target audience. Click to know more.",
       "longDescription": "This is long description",
-      "logo": "https://yateam.vercel.app/static/media/im.f09b99d7e1997ffc9e61.png"
+      "logo": "",
+      "learnMore": {
+        "intro": "We help businesses showcase their brand visually, engage audiences, and drive conversions through strategic Instagram marketing.",
+        "points": [
+          "Setting up a professional business page and keeping it active.",
+          "Responding to comments, messages, and building positive audience interactions.",
+          "Crafting compelling bios with relevant hashtags to boost discoverability.",
+          "Planning engaging content and providing regular updates in a 15-minute call to ensure you're always in the loop."
+        ],
+        "conclusion": "Let Instagram become your visual portfolio to connect, engage, and grow your audience!"
+      }
     },
     {
       "title": "Facebook Marketing",
       "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
       "longDescription": "This is long description",
-      "logo": "https://yateam.vercel.app/static/media/im.f09b99d7e1997ffc9e61.png"
+      "logo": ""
     },
     {
       "title": "LinkedIn Marketing",
-      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+      "description": "Boost your professional presence and build a strong network with LinkedIn, the ultimate platform for business connections. Click to know more.",
       "longDescription": "This is long description",
-      "logo": "https://yateam.vercel.app/static/media/im.f09b99d7e1997ffc9e61.png"
+      "logo": "https://yateam.vercel.app/static/media/im.f09b99d7e1997ffc9e61.png",
+      "learnMore": {
+        "intro": "We help businesses build a professional presence, foster connections, and generate quality leads through LinkedIn’s powerful networking platform.",
+        "points": [
+          "Crafting a professional and appealing LinkedIn page to represent your brand.",
+          "Managing comments, reviews, and messages to maintain positive public relations.",
+          "Designing a streamlined page layout and regularly updating content.",
+          "Developing strategic content plans and providing regular updates in a 15-minute call to keep you informed."
+        ],
+        "conclusion": "Let your LinkedIn page work as your digital business card and grow your professional network seamlessly!"
+      }
+    },
+    {
+      "title": "YouTube Marketing",
+      "description": "Empower your brand with YouTube marketing – the ultimate platform to connect, engage, and convert your audience through compelling video content. Click to learn more.",
+      "longDescription": "This is long description",
+      "logo": "",
+      "learnMore": {
+        "intro": "We help businesses create, optimize, and promote engaging video content that drives brand awareness and accelerates conversions.",
+        "points": [
+          "Setting up a professional channel and consistently maintaining it.",
+          "Scriptwriting, video editing, and voiceovers to deliver high-quality videos.",
+          "Researching keywords, writing descriptions, adding tags, and using trending hashtags to improve video reach.",
+          "Responding to comments, managing audience interactions, and building positive public relations.",
+          "Finding and collaborating with influencers to promote your brand to a wider audience.",
+          "Creating and managing targeted paid ad campaigns for higher visibility.",
+          "Developing content plans and providing regular updates in a 15-minute call to keep you informed."
+        ],
+        "conclusion": "Let your brand's story come alive on YouTube and capture your audience like never before!"
+      }
     },
     {
       "title": "Marketing & Content Strategy Consultancy",
-      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+      "description": "Unlock the power of strategic planning to elevate your brand and achieve business goals through tailored marketing and content strategies. Click to learn more.",
       "longDescription": "This is long description",
-      "logo": "https://yateam.vercel.app/static/media/im.f09b99d7e1997ffc9e61.png"
-    }
-  ],
-  "designing": [
-    {
-      "title": "Social Media Poster Design",
-      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
-      "longDescription": "This is long description",
-      "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
-    },
-    {
-      "title": "Event Poster Design",
-      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
-      "longDescription": "This is long description",
-      "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
-    },
-    {
-      "title": "Front Cover Design",
-      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
-      "longDescription": "This is long description",
-      "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
-    },
-    {
-      "title": "Video & Image Editing",
-      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
-      "longDescription": "This is long description",
-      "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
-    },
-    {
-      "title": "Writeups & Thumbnail Design",
-      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
-      "longDescription": "This is long description",
-      "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
-    },
-    {
-      "title": "Business Card Design",
-      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
-      "longDescription": "This is long description",
-      "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
+      "logo": "https://yateam.vercel.app/static/media/im.f09b99d7e1997ffc9e61.png",
+      "learnMore": {
+        "intro": "We help businesses align their marketing efforts with business objectives by crafting customized content strategies that maximize engagement and drive growth.",
+        "points": [
+          "Defining your brand's unique voice, vision, and target audience.",
+          "Developing a comprehensive content plan with a posting schedule across multiple platforms.",
+          "Analysing market trends and competitors to create a winning strategy.",
+          "Monitoring performance and providing insights with actionable recommendations in a 15-minute call.",
+          "Designing promotional campaigns to enhance brand reach and audience engagement."
+        ],
+        "conclusion": "Let your brand's story be heard through strategic marketing and impactful content!"
+      }
     }
   ],
   "development": [
@@ -93,6 +105,44 @@
       "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
       "longDescription": "This is long description",
       "logo": "https://yateam.vercel.app/static/media/csd.6ced9cfb7e8e8512613b.png"
+    }
+  ],
+  "designing": [
+    {
+      "title": "Social Media Poster Design",
+      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+      "longDescription": "This is long description",
+      "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
+    },
+    {
+      "title": "Event Poster Design",
+      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+      "longDescription": "This is long description",
+      "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
+    },
+    {
+      "title": "Front Cover Design",
+      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+      "longDescription": "This is long description",
+      "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
+    },
+    {
+      "title": "Video & Image Editing",
+      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+      "longDescription": "This is long description",
+      "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
+    },
+    {
+      "title": "Writeups & Thumbnail Design",
+      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+      "longDescription": "This is long description",
+      "logo": "/publicAssets/writeup.png"
+    },
+    {
+      "title": "Business Card Design",
+      "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+      "longDescription": "This is long description",
+      "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
     }
   ]
 }
