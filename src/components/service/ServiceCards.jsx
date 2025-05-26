@@ -90,7 +90,7 @@ const ServiceCards = (props) => {
       <Modal ref={modalRootRef}>
         {selectedService && (
           <div>
-            <p className="text-lg font-bold text-primary">
+            <p className="text-lg font-bold text-primary leading-none mb-3">
               {selectedService.learnMore?.intro}
             </p>
             <ul className="list-disc pl-5">

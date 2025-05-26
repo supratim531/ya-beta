@@ -1,9 +1,9 @@
-import React from "react";
 import classNames from "classnames";
 import { team } from "../../assets";
+import { Work1stImage } from "../../assets";
 
 // import required modules
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,9 +17,14 @@ const TeamDesktopSwiper = (props) => {
   return (
     <div className="slider-ud hidden w-full md:block">
       <Swiper
+        loop
         spaceBetween={6}
         navigation={window.screen.width > 576 ? true : false}
-        modules={[Navigation]}
+        modules={[Navigation, Autoplay]}
+        autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
         breakpoints={{
           768: {
             slidesPerView: 2,
@@ -36,11 +41,11 @@ const TeamDesktopSwiper = (props) => {
         {team?.map((member) => {
           return (
             <SwiperSlide
-              key={member.image}
+              key={member.name}
               className="overflow-hidden rounded-xl"
             >
               <div
-                style={{ "--background-image": `url(${member.image})` }}
+                style={{ "--background-image": `url(${Work1stImage})` }}
                 className={classNames(
                   css.slide,
                   `h-[480px] w-full overflow-hidden rounded-xl before:hover:scale-125 xs:h-[320px] sm:h-[360px]`,
@@ -61,7 +66,6 @@ const TeamDesktopSwiper = (props) => {
                         {member.name}
                       </h1>
                     </div>
-                    
                   </div>
                 </div>
               </div>

@@ -4,6 +4,7 @@ import {
   TeamMobileSwiper,
   TeamDesktopSwiper,
 } from "../../components";
+import AcheivementCard from "./AcheivementCard";
 
 const Acheivement = () => {
   return (
@@ -33,6 +34,8 @@ const Acheivement = () => {
         <section className="w-full md:w-[70%]">
           <TeamMobileSwiper />
           <TeamDesktopSwiper />
+          {/* <AcheivementCard/> */}
+          
         </section>
       </article>
     </Container>

@@ -20,7 +20,7 @@
   flex: 0.5;
   margin: 10px;
   position: relative;
-  -webkit-transition: all 700ms ease-in;
+  -webkit-transition: all 300ms ease-in;
 }
 
 .panel h3 {
@@ -41,13 +41,32 @@
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-@media (max-width: 480px) {
+/* ...existing code... */
+
+@media (max-width: 767px) {
   .designContainer {
+    flex-direction: column; /* Stack panels vertically */
     width: 100%;
+    height: auto;
   }
 
-  .panel:nth-of-type(4),
+  .panel {
+    width: 100%;
+    height: 10vh; /* Adjust as needed for mobile */
+    margin: 10px 0;
+    border-radius: 20px; 
+    flex: unset; /* Remove flex grow/shrink for vertical */
+  }
+
+  .panel.active {
+    height: 30vh; /* Make active panel taller */
+    flex: unset;
+  }
+
+
+  /* .panel:nth-of-type(4),
   .panel:nth-of-type(5) {
     display: none;
-  }
+  } */
+
 }

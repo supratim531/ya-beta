@@ -23,7 +23,6 @@ const Service = (props) => {
             <p>
             Stay organised and improve. Streamline custom development, marketing, design and other business operations of your enterprise. Let us help enhance the bottom line of your business with our custom-made solutions. 
             </p>
-            <BookConsultationButton/>
           </section>
           <section className="flex w-full justify-center md:w-[40%]">
             <img

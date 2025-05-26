@@ -8,7 +8,7 @@ const Hero = (props) => {
     <Container>
       <article
         id="hero"
-        className="flex flex-col justify-between gap-6 py-16 md:flex-row"
+        className="flex flex-col justify-between gap-6 pt-[8rem] pb-16 md:flex-row w-[90%] sm:w-[100%] m-auto"
       >
         <section className="flex w-full flex-col justify-center gap-y-2 text-white md:w-[40%]">
           <h1 className="font-poppins text-[24px] font-bold leading-8 md:text-[35px] md:leading-10">

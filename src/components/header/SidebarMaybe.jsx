@@ -5,16 +5,31 @@ const SidebarMaybe = (props, ref) => {
 
   useImperativeHandle(ref, () => ({
     toggle: () => {
-      sidebarRef.current?.classList.toggle("translate-x-[100%]");
+      sidebarRef.current?.classList.toggle("translate-y-[-60%]");
+      sidebarRef.current?.classList.toggle("opacity-100");
     },
   }));
 
   return (
-    <aside
+    <section
       ref={sidebarRef}
-      onClick={() => ref.current.toggle()}
-      className="fixed right-0 top-0 z-[2] h-screen w-[70%] translate-x-[100%] bg-red-400 duration-300 sm:w-[60%] md:hidden"
-    ></aside>
+      className="fixed right-[1rem] top-[20%] z-[2] w-[40%] h-[20vh]  bg-[#5d5c5ca1] duration-300 sm:w-[60%] md:hidden opacity-0 backdrop-blur-[5px] rounded-[10px] shadow-md backdrop-brightness-50"
+    >
+      <ul className="md:hidden text-[1.5rem] text-white flex flex-col justify-center items-center h-full w-full gap-[1rem]">
+          <li>
+            <a className="hover:text-primary-blue" href="#service">Service</a>
+          </li>
+          <li>
+            <a className="hover:text-primary-blue" href="#work">Work</a>
+          </li>
+          <li>
+            <a className="hover:text-primary-blue" href="#course">Course</a>
+          </li>
+          <li>
+            <a className="hover:text-primary-blue" href="#about">About</a>
+          </li>
+        </ul>
+    </section>
   );
 };
 
