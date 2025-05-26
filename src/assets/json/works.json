@@ -72,7 +72,7 @@
         "title": "Custom Software Design",
         "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
         "longDescription": "This is long description",
-        "logo": "https://yateam.vercel.app/static/media/csd.6ced9cfb7e8e8512613b.png"
+        "logo": "/dev.png"
       },
       {
         "title": "Custom App Development",

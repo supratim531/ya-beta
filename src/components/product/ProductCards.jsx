@@ -77,8 +77,8 @@ const ProductCards = () => {
                 data-tilt-reverse="true"
                 className={classNames(css.card, "card-3d hover:shadow-lg transition-all duration-300")}
               >
-                <div className={css.cardImage}>
-                  <img className="w-60 rounded-lg" src={service.logo} alt={service.title} />
+                <div className="overflow-hidden">
+                  <img className="w-full rounded-tl-[15px] rounded-tr-[15px] cardImage h-[100%] object-cover" src="/dev.png" alt={service.title} />
                 </div>
                 <div className={css.cardText}>
                   <h2 className="font-bold text-lg">{service.title}</h2>
