@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import "./FlipCard.css";
 
 const FlipCard = (props) => {
@@ -37,7 +36,24 @@ const FlipCard = (props) => {
         </div>
 
         {/* Back Side */}
-        <div className="flip-card-back"></div>
+        <div className="flip-card-back">
+          <div className="circle-content"></div>
+
+          <div className="font-roboto font-semibold text-white">
+            <div className="phone-section">
+              <div className="phone-numbers">
+                <div>+91 9883952010</div>
+                <div>+91 9804569051</div>
+              </div>
+            </div>
+
+            <div className="email-section">
+              <div className="email-address">yafoundations@gmail.com</div>
+            </div>
+          </div>
+
+          <div className="qr-code"></div>
+        </div>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import { team } from "../../assets";
+import { Work1stImage } from "../../assets";
 
 // import required modules
 import { EffectCards } from "swiper/modules";
@@ -34,7 +35,7 @@ const TeamMobileSwiper = (props) => {
                 <span className="text-xs text-white">{member.description}</span>
               </div>
               <img
-                src={member.image}
+                src={Work1stImage}
                 className="h-full w-full object-cover object-center"
               />
             </div>

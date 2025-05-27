@@ -1,12 +1,15 @@
 export { default as team } from "./json/team.json";
+export { default as student } from "./json/student.json";
+export { default as works } from "./json/works.json";
 export { default as courses } from "./json/courses.json";
 export { default as services } from "./json/services.json";
 export { default as testimonials } from "./json/testimonials.json";
 export { default as StudentGIF } from "./gif/student.gif";
-export { default as BrandLogo } from "./logo/brand.png";
+export { default as BrandLogo } from "./logo/brandlogo.png";
 export { default as HeroImage } from "./image/hero.png";
 export { default as QuoteImage } from "./image/quote.png";
 export { default as OldLogoImage } from "./image/old-logo.png";
+export { default as logo2 } from "./image/logo2.png";
 export { default as Work1stImage } from "./image/work-image-1.png";
 export { default as Work2ndImage } from "./image/work-image-2.png";
 export { default as Work3rdImage } from "./image/work-image-3.png";

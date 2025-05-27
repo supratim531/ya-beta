@@ -1,0 +1,102 @@
+{
+    "marketing": [
+      {
+        "title": "Instagram Marketing",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "https://yateam.vercel.app/static/media/im.f09b99d7e1997ffc9e61.png",
+        "img": "https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+      },
+      {
+        "title": "Facebook Marketing",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "https://yateam.vercel.app/static/media/im.f09b99d7e1997ffc9e61.png",
+        "img": "https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+      },
+      {
+        "title": "LinkedIn Marketing",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "https://yateam.vercel.app/static/media/im.f09b99d7e1997ffc9e61.png",
+        "img": "https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+      },
+      {
+        "title": "Marketing & Content Strategy Consultancy",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "https://yateam.vercel.app/static/media/im.f09b99d7e1997ffc9e61.png",
+        "img": "https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+      }
+    ],
+    "designing": [
+      {
+        "title": "Social Media Poster Design",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
+      },
+      {
+        "title": "Event Poster Design",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
+      },
+      {
+        "title": "Front Cover Design",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
+      },
+      {
+        "title": "Video & Image Editing",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
+      },
+      {
+        "title": "Writeups & Thumbnail Design",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
+      },
+      {
+        "title": "Business Card Design",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "https://yateam.vercel.app/static/media/smpd.33d0179439c21f714d3b.png"
+      }
+    ],
+    "development": [
+      {
+        "title": "Custom Software Design",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "/dev.png"
+      },
+      {
+        "title": "Custom App Development",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "https://yateam.vercel.app/static/media/csd.6ced9cfb7e8e8512613b.png"
+      },
+      {
+        "title": "Custom Web Development",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "https://yateam.vercel.app/static/media/csd.6ced9cfb7e8e8512613b.png"
+      },
+      {
+        "title": "API Development",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "https://yateam.vercel.app/static/media/csd.6ced9cfb7e8e8512613b.png"
+      },
+      {
+        "title": "Enterprise Software Development",
+        "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
+        "longDescription": "This is long description",
+        "logo": "https://yateam.vercel.app/static/media/csd.6ced9cfb7e8e8512613b.png"
+      }
+    ]
+  }

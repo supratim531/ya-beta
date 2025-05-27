@@ -2,37 +2,47 @@ import {
   Hero,
   Service,
   Work,
-  Project,
   Course,
   About,
   Testimonial,
 } from "../../components";
+import Acheivement from "../../components/Acheivement/Acheivement";
+import Product from "../../components/product/Product";
 
 const HomePage = (props) => {
   return (
     <main>
       <div className="bg-black">
-        <Hero />
+        <Hero /> 
       </div>
 
       <div className="bg-white">
         <Service />
       </div>
 
+      {/* why choose us*/}
       <div className="bg-black">
         <Work />
       </div>
 
-      <div className="bg-[#ff0055]">
+      {/* Works */}
+      <div className="bg-white">
+        <Product />
+      </div>
+
+      {/* ed component */}
+      <div className="bg-black">
         <Course />
       </div>
 
+      {/* ed acheivement - need to be done */}
       <div className="bg-white">
-        <Project />
+      <Acheivement />
       </div>
 
+      {/* teams */}
       <div className="bg-black">
-        <About />
+        <About /> 
       </div>
 
       <div className="bg-white">

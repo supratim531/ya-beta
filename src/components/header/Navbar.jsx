@@ -1,34 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrandLogo } from "../../assets";
 
 const Navbar = (props) => {
   const { toggleSidebar } = props;
+  const [isOpen, setIsOpen] = useState(0); 
+  const handleOnClick = ()=>{
+    toggleSidebar(); 
+    setIsOpen(!isOpen);
+  }
 
   return (
-    <nav className="flex items-center justify-between py-6">
-      <section>
-        <img className="w-10" src={BrandLogo} alt="brand-logo" />
-      </section>
+    <nav className="flex items-center justify-between fixed top-0 left-0 z-[1000] w-full bg-black px-6 md:px-12 shadow-md">
+      <a href="#hero">
+        <img className="w-[5rem] h-auto cursor-pointer" src={BrandLogo} alt="YA-logo" />
+      </a>
       <section>
         <ul className="hidden gap-x-8 text-lg text-white md:flex">
           {/* <li>
             <a href="#">Home</a>
           </li> */}
           <li>
-            <a href="#service">Service</a>
+            <a className="hover:text-primary-blue" href="#service">Service</a>
           </li>
           <li>
-            <a href="#work">Work</a>
+            <a className="hover:text-primary-blue" href="#work">Work</a>
           </li>
           <li>
-            <a href="#course">Course</a>
+            <a className="hover:text-primary-blue" href="#course">Course</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a className="hover:text-primary-blue" href="#about">About</a>
           </li>
         </ul>
-        <button onClick={toggleSidebar} className="block md:hidden">
-          <i className="fa-solid fa-bars text-4xl text-white"></i>
+        <button onClick={handleOnClick} className="block md:hidden">
+          <i className={`fa-solid  ${isOpen ? "fa-xmark" : "fa-bars"} text-4xl text-white`}></i>
         </button>
       </section>
     </nav>
