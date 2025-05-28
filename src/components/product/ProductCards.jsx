@@ -78,7 +78,7 @@ const ProductCards = () => {
                 className={classNames(css.card, "card-3d hover:shadow-lg transition-all duration-300")}
               >
                 <div className="overflow-hidden">
-                  <img className="w-full rounded-tl-[15px] rounded-tr-[15px] cardImage h-[100%] object-cover" src="/dev.png" alt={service.title} />
+                  <img className="w-full rounded-tl-[15px] rounded-tr-[15px] cardImage h-[100%] object-cover" src={service?.logo} alt={service.title} />
                 </div>
                 <div className={css.cardText}>
                   <h2 className="font-bold text-lg">{service.title}</h2>
