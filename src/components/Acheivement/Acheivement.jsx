@@ -33,9 +33,7 @@ const Acheivement = () => {
         </section>
         <section className="w-full md:w-[70%]">
           <TeamMobileSwiper />
-          <TeamDesktopSwiper />
-          {/* <AcheivementCard/> */}
-          
+          <TeamDesktopSwiper />          
         </section>
       </article>
     </Container>

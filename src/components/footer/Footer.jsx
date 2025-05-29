@@ -7,9 +7,9 @@ const Footer = (props) => {
     <footer className="bg-black">
       <Container>
         <article className="py-8 sm:py-16">
-          <section>
-            <img className="w-[5rem]" src={BrandLogo} />
-          </section>
+          <a href="#hero">
+            <img className="h-[3rem] cursor-pointer" alt="YA-logo" src={BrandLogo} />
+          </a>
           <div className="my-10 h-[1px] w-full bg-secondary-light bg-opacity-50"></div>
           <section className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <div className="text-gray-400">
