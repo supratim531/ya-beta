@@ -72,37 +72,37 @@
         "title": "Custom Software Design",
         "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
         "longDescription": "This is long description",
-        "logo": "/workImage/dev1.png"
+        "logo": "/workImage/Dev1.png"
       },
       {
         "title": "Custom App Development",
         "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
         "longDescription": "This is long description",
-        "logo": "/workImage/dev2.png"
+        "logo": "/workImage/Dev2.png"
       },
       {
         "title": "Custom Web Development",
         "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
         "longDescription": "This is long description",
-        "logo": "/workImage/dev3.png"
+        "logo": "/workImage/Dev3.png"
       },
       {
         "title": "API Development",
         "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
         "longDescription": "This is long description",
-        "logo": "/workImage/dev4.png"
+        "logo": "/workImage/Dev4.png"
       },
       {
         "title": "Enterprise Software Development",
         "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
         "longDescription": "This is long description",
-        "logo": "/workImage/dev5.png"
+        "logo": "/workImage/Dev5.png"
       },
       {
         "title": "Custom Software Development",
         "description": "doloribus neque excepturi perferendis aspernatur, commodi inventore",
         "longDescription": "This is long description",
-        "logo": "/workImage/dev6.png"
+        "logo": "/workImage/Dev6.png"
       }
     ]
   }
