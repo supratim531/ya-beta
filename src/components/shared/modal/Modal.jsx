@@ -19,7 +19,7 @@ const ModalComponent = (props, ref) => {
   return (
     <main
       ref={modalRef}
-      className="invisible fixed inset-0 z-10 flex h-screen w-full items-center justify-center bg-black bg-opacity-60 opacity-0 transition-all duration-200"
+      className="invisible fixed inset-0 z-[2000] flex h-screen w-full items-center justify-center bg-black bg-opacity-60 opacity-0 transition-all duration-200"
     >
       <article
         className={classNames(

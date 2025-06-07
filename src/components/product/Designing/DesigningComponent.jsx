@@ -12,11 +12,11 @@ const DesigningComponent = () => {
       {works.designing.map((panel, index) => (
         <div
           key={index}
-          className={`panel ${index === activeIndex ? "active" : ""}`}
-          style={{ backgroundImage: `url(https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)` }}
+          className={`panel ${index === activeIndex ? "active" : ""} shadow-md`}
+          style={{ backgroundImage: `url(${panel?.logo})` }}
           onClick={() => setActiveIndex(index)}
         >
-          <h3>{panel.title}</h3>
+          <h3 className="bg-black bg-opacity-50 backdrop-blur-[10px] p-4 rounded-[50px] shadow-md">{panel.title}</h3>
         </div>
       ))}
     </div>

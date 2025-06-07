@@ -12,7 +12,7 @@ const Navbar = (props) => {
   return (
     <nav className="flex items-center justify-between fixed top-0 left-0 z-[1000] w-full bg-black px-6 md:px-12 shadow-md">
       <a href="#hero">
-        <img className="w-[5rem] h-auto cursor-pointer" src={BrandLogo} alt="YA-logo" />
+        <img className="h-[3rem] my-[0.5rem] cursor-pointer" src={BrandLogo} alt="YA-logo" />
       </a>
       <section>
         <ul className="hidden gap-x-8 text-lg text-white md:flex">
