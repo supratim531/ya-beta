@@ -82,8 +82,7 @@ const ProductCards = () => {
                 </div>
                 <div className={css.cardText}>
                   <h2 className="font-bold text-lg">{service.title}</h2>
-                  <p className="text-sm text-gray-300">{service.description}</p>
-                  <span className={css.author}>Sanjay Khan</span>
+                  <p className="mt-5 text-sm text-gray-700">{service.description}</p>
                 </div>
               </div>
             ))

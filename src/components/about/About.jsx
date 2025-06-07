@@ -17,7 +17,7 @@ const About = () => {
       >
         <section className="flex w-full flex-col justify-center gap-y-2 text-white md:w-[50%]">
           <p className="font-poppins text-base uppercase text-primary">
-            Our Team
+            CONTACT OUR 
           </p>
           <h3 className="font-poppins text-[24px] font-bold leading-8 md:text-[32px] md:leading-10">
             {"Certified Team Of Experts "}

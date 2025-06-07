@@ -39,7 +39,7 @@
 
 .cardText {
   grid-area: text;
-  margin: 25px;
+  margin: 15px;
   transform: translateZ(30px);
 
   & h2 {

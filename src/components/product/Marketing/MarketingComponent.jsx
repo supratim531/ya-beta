@@ -45,7 +45,7 @@ const MarketingComponent = () => {
         <div className="absolute top-0 left-0 flex flex-col items-start justify-top h-full w-full rounded-md p-10">
           <h1 className={`text-white text-[2rem] transition-opacity duration-300 ${textAnim ? styles.fadeAnimation : ""}`}>{activeInfo.title}</h1>
           <p className={`text-white transition-opacity duration-300 ${textAnim ? styles.fadeAnimation : ""}`}>{activeInfo.description}</p>
-          <p className={`text-white transition-opacity duration-300 ${textAnim ? styles.fadeAnimation : ""}`}>{activeInfo.longDescription}</p>
+          {/* <p className={`text-white transition-opacity duration-300 ${textAnim ? styles.fadeAnimation : ""}`}>{activeInfo.longDescription}</p> */}
         </div>
       </div>
 
