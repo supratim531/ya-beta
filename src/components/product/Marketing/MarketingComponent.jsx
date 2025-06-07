@@ -11,7 +11,7 @@ const MarketingComponent = () => {
       "doloribus neque excepturi perferendis aspernatur, commodi inventore",
     longDescription: "This is long description",
     logo: "https://yateam.vercel.app/static/media/im.f09b99d7e1997ffc9e61.png",
-    img: "https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+    img: "/workImage/Marketing1.png",
   });
 
   const [imgAnim, setImgAnim] = useState(false);
@@ -40,12 +40,12 @@ const MarketingComponent = () => {
         <img
           src={activeInfo.img}
           alt="bg"
-          className={`h-full w-full rounded-md object-cover transition-all duration-300 ${imgAnim ? styles.zoomAnimation : ""} brightness-[0.5]`}
+          className={`h-full w-full rounded-md  transition-all duration-300 ${imgAnim ? styles.zoomAnimation : ""} brightness-[0.5]`}
         />
         <div className="absolute top-0 left-0 flex flex-col items-start justify-top h-full w-full rounded-md p-10">
           <h1 className={`text-white text-[2rem] transition-opacity duration-300 ${textAnim ? styles.fadeAnimation : ""}`}>{activeInfo.title}</h1>
           <p className={`text-white transition-opacity duration-300 ${textAnim ? styles.fadeAnimation : ""}`}>{activeInfo.description}</p>
-          <p className={`text-white transition-opacity duration-300 ${textAnim ? styles.fadeAnimation : ""}`}>{activeInfo.longDescription}</p>
+          {/* <p className={`text-white transition-opacity duration-300 ${textAnim ? styles.fadeAnimation : ""}`}>{activeInfo.longDescription}</p> */}
         </div>
       </div>
 

@@ -19,12 +19,11 @@ const Course = (props) => {
               <img className="w-20 lg:w-32" src={OldLogoImage} />
             </div>
             <h1 className="font-poppins text-[24px] font-bold leading-8 md:text-[35px] md:leading-10">
-              {"Experience the Next Level "}
-              <span className="text-secondary-light">Business Efficiency</span>
+              {"Experience the concepts implement "}
+              <span className="text-secondary-light"> ideas practically and efficiently</span>
             </h1>
             <h2 className="font-poppins text-[16px] opacity-90 md:text-[18px]">
-              Choose India's best enterprise solution provider to help your
-              business grow.
+              Learn where, why and how to implement technical concepts into wonderful ideas and projects and deep dive more for more curiosity.
             </h2>
           </section>
           <section className="flex w-full justify-center md:w-[60%]">

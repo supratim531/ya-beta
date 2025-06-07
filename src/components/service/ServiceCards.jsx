@@ -89,7 +89,7 @@ const ServiceCards = (props) => {
       </section>
       <Modal ref={modalRootRef}>
         {selectedService && (
-          <div>
+          <>
             <p className="text-lg font-bold text-primary leading-none mb-3">
               {selectedService.learnMore?.intro}
             </p>
@@ -103,7 +103,7 @@ const ServiceCards = (props) => {
             <p className="text-md text-slate-600">
               {selectedService.learnMore?.conclusion}
             </p>
-          </div>
+          </>
         )}
       </Modal>
     </article>

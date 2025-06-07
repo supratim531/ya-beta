@@ -2,30 +2,51 @@
   {
     "name": "Java",
     "modules": [
-      "OOPs concept with Java and its architecture",
-      "Core Java and Java Architecture",
-      "OOPs concept with Java",
-      "Advance Java concepts",
-      "Spring framework with Java(Spring-boot)",
-      "Selenium with Java for webiste automation testing(Eclipse)"
+      "Understanding the Architecture of JAVA.",
+      "Core Basic Programming of JAVA.",
+      "Progressing with OOPs concept.",
+      "Stepping into Advance Layers of JAVA.",
+      "DSA with JAVA (sounds difficult but not impossible).",
+      "[Add a spring logo as well] Spring Framework with JAVA (Full project based - Making Backend & API)",
+      "Selenium[Add a selenium logo as well] with JAVA for automation purposes."
     ],
     "image": "https://yateam.vercel.app/static/media/java.765d56404838a44a9025.png"
   },
+
   {
     "name": "JavaScript",
     "modules": [
-      "JavaScript Module 1",
-      "JavaScript Module 2",
-      "JavaScript Module 3"
+      "Understanding the Architecture of JavaScript.",
+      "Core Basic Programming of JavaScript(HTML, CSS and Javascript).",
+      "Progressing with other concepts of JavaScript.",
+      "Stepping into Advanced Layers of JavaScript.",
+      "DSA with JavaScript.",
+      "Project Framework with JavaScript(Frontend-ReactJS[Add a react js logo as well])",
+      "Advanced concepts of JavaScript Frameworks."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+  },
+  {
+    "name": "Database",
+    "modules": [
+      "Deep-diving concepts of Database.",
+      "Making a good database designs, utilizing the theory-concepts.",
+      "Learn Oracle Database with proper SQL Queries and proper scenarios where you should implement it.",
+      "MongoDB and implement it in the backend like NodeJS.",
+      "Implement database concepts in backend with Python and JAVA."
     ],
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
   },
   {
     "name": "Python",
     "modules": [
-      "Python Module 1",
-      "Python Module 2",
-      "Python Module 3"
+      "Understanding the Architecture of Python.",
+      "Core Basic Programming of Python in scripting style format.",
+      "Progressing with POP and OOPs concepts.",
+      "Stepping into Advanced Layers of Python.",
+      "DSA with Python.",
+      "Numerous Framework with Python(Full project based - Making Backend & API).",
+      "AI with Python."
     ],
     "image": "https://yateam.vercel.app/static/media/python.5a59592e493056c3e7d6.png"
   }
