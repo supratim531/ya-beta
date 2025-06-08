@@ -94,15 +94,19 @@ const Testimonial = (props) => {
                   </section>
                   <section className="text-xl font-semibold">
                     {testimonial.name}
+                    <br />
+                    <span className="text-base">{testimonial.title}</span>
                   </section>
                   <p className="mt-6 text-xl italic">
                     <img
                       src={QuoteImage}
+                      alt=""
                       className="relative -top-2.5 inline w-4"
                     />
                     <span>{testimonial.quote}</span>
                     <img
                       src={QuoteImage}
+                      alt=""
                       className="relative -top-2.5 inline w-4 rotate-180"
                     />
                   </p>
